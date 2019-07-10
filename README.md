@@ -4,6 +4,8 @@ How to describe `CrashLoopBackOff` in a way people understand: [crashloopbackoff
 
 The brain child of [Vallery Lancey](/vllry/) and [Chris Short](/chris-short/)
 
+## What is a `CrashLoopBackOff`?
+
 > You may find your pod reporting a status of `CrashLoopBackOff`, another incredibly common error state...
 >
 > This explicitly means that one of the containers in the pod has exited unexpectedly, and perhaps with a non-zero error code.
