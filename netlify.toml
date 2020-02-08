@@ -1,0 +1,24 @@
+[build]
+publish = "public"
+command = "ls -l public/index.html"
+
+# https://docs.netlify.com/configure-builds/file-based-configuration/#post-processing
+# If skip_processing = true, all other settings are ignored
+[build.processing]
+  skip_processing = false
+[build.processing.css]
+  bundle = true
+  minify = true
+[build.processing.js]
+  bundle = true
+  minify = true
+[build.processing.html]
+  pretty_urls = false
+[build.processing.images]
+  compress = true
+
+[[redirects]]
+  from = "https://crashloopbackoff.netlify.com/*"
+  to = "https://crashloopbackoff.dev/:splat"
+  status = 301
+  force = true
