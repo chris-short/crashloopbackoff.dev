@@ -1,5 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/79a1251d-09c9-4228-b8ba-cdf03d11d4c5/deploy-status)](https://app.netlify.com/sites/crashloopbackoff/deploys)
-
 # crashloopbackoff.dev
 
 How to describe `CrashLoopBackOff` in a way people understand: [crashloopbackoff.dev](https://crashloopbackoff.dev)
