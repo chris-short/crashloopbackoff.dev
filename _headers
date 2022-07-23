@@ -3,6 +3,6 @@
   X-XSS-Protection: 1; mode=block
   Referrer-Policy: no-referrer, strict-origin-when-cross-origin
   X-Content-Type-Options: nosniff
-  Permissions-Policy: fullscreen=(self https://chrisshort.me), geolocation=(), camera=(), microphone=()
+  Permissions-Policy: fullscreen=(self https://crashloopbackoff.dev), geolocation=(), camera=(), microphone=()
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
-  Access-Control-Allow-Origin: https://chrisshort.me
+  Access-Control-Allow-Origin: https://crashloopbackoff.dev
